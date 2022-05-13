@@ -2,6 +2,15 @@
 html {
     scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+    width: 14px;
+}
+::-webkit-scrollbar-track {
+    background: #8a8a8a9c; 
+}
+::-webkit-scrollbar-thumb {
+    background: #040611;
+}
 body {
     background-color: #181d29;
     text-align: center;
