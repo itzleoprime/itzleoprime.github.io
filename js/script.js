@@ -13,4 +13,4 @@ const typed = new Typed(".typing", {
 });
 document.getElementById("nyt").onclick = function() {
     window.open("https://discord.gg/34Un6KrbCj");
-}
+};

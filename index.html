@@ -16,10 +16,10 @@
 <body>
     <div class="navbar" id="sec0">
         <ul class="uln">
-            <li class="navli"><a href="#" id="active"><b>HOME</b></a></li>
+            <li class="navli"><a href="index.html" id="active"><b>HOME</b></a></li>
             <li class="navli" id="disc"><a href="#pro"><b>PROJECTS</b></a></li>
             <li id="rv" class="navli"><a href="#abt"><b>ABOUT</b></a></li>
-            <li class="navli" id="soe"><a href="#"><b>CONTACT</b></a></li>
+            <li class="navli" id="soe"><a href="#con"><b>CONTACT</b></a></li>
         </ul>
     </div>
     <div class="main">
@@ -31,9 +31,12 @@
     </div>
     <div class="links">
         <a href="#"><img src="assets/mail.svg" alt="email"></a>
-        <a href="#"><img src="assets/insta.svg" alt="instagram"></a>
-        <a href="#"><img src="assets/twt.svg" alt="twitter"></a>
-        <a href="#"><img src="assets/discord.svg" alt="discord"></a>
+        <a href="https://instagram.com/ItsLeoPrime"><img src="assets/insta.svg" alt="instagram"></a>
+        <a href="https://youtube.com/channel/UCCWdIAf0IrcxKU9FlbuqF_Q"><img src="assets/yt.svg" alt="yt"></a>
+        <div class="tooltip">
+            <img src="assets/discord.svg" alt="discord" id="discord" class="tooltip">
+            <span id="dctxt" class="tooltiptext">Leo Prime#4086</span>
+        </div>
     </div>
     <div class="abt" id="abt">
         <h1>ABOUT</h1>
@@ -46,6 +49,29 @@
             <h2>Not Your Type</h2>
         </div>
     </div>
+    <div id="con" class="contact">
+        <h1>CONTACT</h1>
+        <div class="con">
+            <label>
+                <input id="name" type="text" name="name" placeholder="Name" minlength="1">
+              </label>
+              
+              <label>
+                <input id="email" type="email" name="email" placeholder="Email" minlength="3">
+              </label>
+              
+              <label>
+                <textarea id="msg" name="message" placeholder="Message" maxlength="800"></textarea>
+              </label>
+        </div>
+        <button class="sum" onclick="sendMessage()">Submit</button>
+    </div>
+    <div class="footer">
+        <h1>END</h1>
+        <p>Thanks for visiting!</p>
+        <p>&copy; ItsLeoPrime</p>
+    </div>
     <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 </html>
