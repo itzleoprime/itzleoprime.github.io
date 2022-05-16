@@ -23,6 +23,10 @@ function sendMessage() {
 
     request.send(JSON.stringify(params));
     window.alert("Successfuly sent! " + aut);
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("msg").value = "";
+    document.getElementsByClassName("sum").innerHTML = "Sent";
 
     function hexToDecimal(hex) {
         return parseInt(hex.replace("#",""), 16)
