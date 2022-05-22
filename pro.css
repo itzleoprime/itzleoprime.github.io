@@ -1,0 +1,36 @@
+.pro {
+    margin-top: 200px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.nyt {
+    display: inline-block;
+    margin-left: auto;
+    padding: 8px;
+    margin-top: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: solid 2px rgb(0, 183, 255);
+    background-color: #0e1011;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.nyt img {
+    width: 170px;
+    border-radius: 12px;
+}
+.nyt {
+    margin-top: 7px;
+    transition: 0.5s;
+}
+.nyt:hover {
+    transition: 0.5s;
+    margin-top: -10px;
+}
+.nyt:hover img {
+    border: solid 2px rgb(0, 183, 255);
+    border-radius: 11px;
+    transition: 0.2s;
+}

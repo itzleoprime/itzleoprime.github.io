@@ -111,28 +111,6 @@ body {
     text-align: center;
     font-size: 20px;
 }
-.pro {
-    margin-top: 200px;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-size: 20px;
-}
-.nyt {
-    display: inline-block;
-    margin-left: auto;
-    padding: 8px;
-    margin-top: 5px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    border: solid 2px rgb(0, 183, 255);
-    background-color: #0e1011;
-    border-radius: 11px;
-    cursor: pointer;
-}
-.nyt img {
-    border-radius: 12px;
-}
 .tooltip {
     position: relative;
     display: inline-block;
