@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 .pro {
     margin-top: 200px;
     color: white;
@@ -11,8 +13,8 @@
     padding: 8px;
     margin-top: 5px;
     color: white;
-    font-family: 'Roboto', sans-serif;
-    border: solid 2px rgb(0, 183, 255);
+    font-family: 'Rubik', sans-serif;
+    border: solid 1px rgb(0, 183, 255);
     background-color: #0e1011;
     border-radius: 11px;
     cursor: pointer;
@@ -23,14 +25,14 @@
 }
 .nyt {
     margin-top: 7px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .nyt:hover {
-    transition: 0.5s;
+    transition: 0.3s;
     margin-top: -10px;
 }
 .nyt:hover img {
-    border: solid 2px rgb(0, 183, 255);
+    border: solid 1px rgb(0, 183, 255);
     border-radius: 11px;
     transition: 0.2s;
 }
