@@ -14,3 +14,15 @@ const typed = new Typed(".typing", {
 document.getElementById("nyt").onclick = function() {
     window.open("https://discord.gg/34Un6KrbCj");
 };
+document.getElementById("mad").onclick = function() {
+    window.open("https://discord.com/invite/9TQaUXSshh");
+};
+document.getElementById("ven").onclick = function() {
+    window.open("https://discord.com/invite/yYSQ6b7wGJ");
+}
+document.getElementById("source").onclick = function() {
+    window.open("https://discord.com/invite/sHqgvqS");
+}
+document.getElementById("cap").onclick = function() {
+    window.open("https://discord.com/invite/sxTbg2YXUz");
+}

@@ -23,15 +23,115 @@
     width: 170px;
     border-radius: 12px;
 }
-.nyt {
-    margin-top: 7px;
-    transition: 0.3s;
-}
 .nyt:hover {
     transition: 0.3s;
     margin-top: -10px;
 }
 .nyt:hover img {
+    border: solid 1px rgb(0, 183, 255);
+    border-radius: 11px;
+    transition: 0.2s;
+}
+.mad {
+    display: inline-block;
+    margin-left: auto;
+    padding: 8px;
+    margin-top: 5px;
+    margin: 10px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    border: solid 1px rgb(0, 183, 255);
+    background-color: #0e1011;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.mad img {
+    width: 170px;
+    border-radius: 12px;
+}
+.mad:hover {
+    transition: 0.3s;
+    margin-top: -10px;
+}
+.mad:hover img {
+    border: solid 1px rgb(0, 183, 255);
+    border-radius: 11px;
+    transition: 0.2s;
+}
+.cap {
+    display: inline-block;
+    margin-left: auto;
+    padding: 8px;
+    margin-top: 5px;
+    margin: 10px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    border: solid 1px rgb(0, 183, 255);
+    background-color: #0e1011;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.cap img {
+    width: 170px;
+    border-radius: 12px;
+}
+.cap:hover {
+    transition: 0.3s;
+    margin-top: -10px;
+}
+.cap:hover img {
+    border: solid 1px rgb(0, 183, 255);
+    border-radius: 11px;
+    transition: 0.2s;
+}
+.ven {
+    display: inline-block;
+    margin-left: auto;
+    padding: 8px;
+    margin-top: 5px;
+    margin: 10px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    border: solid 1px rgb(0, 183, 255);
+    background-color: #0e1011;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.ven img {
+    width: 170px;
+    border-radius: 12px;
+}
+.ven:hover {
+    transition: 0.3s;
+    margin-top: -10px;
+}
+.ven:hover img {
+    border: solid 1px rgb(0, 183, 255);
+    border-radius: 11px;
+    transition: 0.2s;
+}
+.source {
+    display: inline-block;
+    margin-left: auto;
+    padding: 8px;
+    margin-top: 5px;
+    margin: 10px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    border: solid 1px rgb(0, 183, 255);
+    background-color: #0e1011;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.source img {
+    width: 170px;
+    border-radius: 12px;
+}
+.source:hover {
+    transition: 0.3s;
+    margin-top: -10px;
+}
+.source:hover img {
     border: solid 1px rgb(0, 183, 255);
     border-radius: 11px;
     transition: 0.2s;
